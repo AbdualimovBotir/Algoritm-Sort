@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Visualize various Sort Algorithms"/>
+    <script src="./js/sortAlgs.js" defer></script>
+    <script src = "./js/sortingVisualizer.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Sort Visualizer</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <nav class = "navbar">
+      <button class="nav-btn" id = "gen-new-arr">GENERATE NEW ARRAY</button>
+      <div class="dropdown">
+          <button class="nav-btn" id = "pick-a-sort">PICK A SORT:</button>
+          <div class = "hidden" id = "dropdown-content">
+              <button class="nav-btn" id = "bubble-sort">BUBBLE SORT</button>
+              <button class="nav-btn" id = "selection-sort">SELECTION SORT</button>
+              <button class="nav-btn" id = "insertion-sort">INSERTION SORT</button>
+              <button class="nav-btn" id = "quick-sort">QUICK SORT</button>
+              <button class="nav-btn" id = "merge-sort">MERGE SORT</button>
+              <button class="nav-btn" id = "bead-sort">BEAD SORT</button>
+              <button class="nav-btn" id = "heap-sort">HEAP SORT</button>
+              <button class="nav-btn" id = "radix-sort">RADIX SORT</button>
+          </div>
+      </div>
+  </nav>
+    <div id="canvas-container">
+      <canvas id="canvas"></canvas>
+    </div>
+  </body>
+</html>
+
